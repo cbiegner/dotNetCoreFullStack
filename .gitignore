@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs/DotNetDev.PCache/v15
+/svc/.vs/DotNetDev.Service.PCache
+/svc/DotNetDev.Service.PCache/bin/Debug/netcoreapp2.1
+/svc/DotNetDev.Service.PCache/obj
+/lgc/DotNetDev.Client.PCache/bin/Debug/netcoreapp2.1
+/lgc/DotNetDev.Client.PCache/obj
+/mdl/DotNetDev.Model.PCache/bin/Debug/netcoreapp2.1
+/mdl/DotNetDev.Model.PCache/obj
+/tst/DotNetDev.Client.PCache.Tests/bin/Debug/netcoreapp2.1
+/tst/DotNetDev.Client.PCache.Tests/obj
+/web/DotNetDev.PCache.WebApp/bin/Debug/netcoreapp2.1
+/web/DotNetDev.PCache.WebApp/obj
+/DotNetDev.Client.PCache/obj
+/DotNetDev.Client.PCache.Tests/obj
+/DotNetDev.Model.PCache/obj
+/DotNetDev.PCache.WebApp/obj
+/DotNetDev.Service.PCache/obj

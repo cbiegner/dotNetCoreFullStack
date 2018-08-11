@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "82b9b6b7-c41c-4811-8f2b-d66944896285",
+		"name": "DotNetDev.Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "b63d0454-f69b-4830-b203-30e2d833051c",
+			"name": "http://localhost:5000/api/values/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "82844705-21c5-4d03-8be3-253993a03b0c",
+			"name": "http://localhost:5000/api/values/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "a9214b21-f4bd-4732-bc1e-44c13b068da0",
+			"name": "http://localhost:5000/api/values/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "352f48b0-b4b4-439a-b9b3-493ed5b1c57b",
+			"name": "http://localhost:5000/api/values/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 2,\n        \"name\": \"John\",\n        \"surname\": \"Doe\",\n        \"address\": {\n            \"type\": 1,\n            \"street\": \"Exile Street\",\n            \"city\": \"Los Angeles\",\n            \"zip\": \"97531\"\n        },\n        \"communication\": {\n            \"type\": 1,\n            \"value\": \"http://www.foo.com\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/values/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "7ee7e60d-cd42-4b7d-a808-92a8811c2c45",
+			"name": "http://localhost:5000/api/values/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "56087528-3bbe-4f6e-9161-1b7944f94daa",
+			"name": "http://localhost:5000/api/values/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 2,\n    \"name\": \"John\",\n    \"surname\": \"Doe\",\n    \"address\": {\n        \"type\": 1,\n        \"street\": \"Exile Street\",\n        \"city\": \"Los Angeles\",\n        \"zip\": \"97531\"\n    },\n    \"communication\": {\n        \"type\": 1,\n        \"value\": \"http:www.foo.com\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/values/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "4b68e756-d22f-43d5-94d5-8b2acd335083",
+			"name": "http://localhost:5000/api/values/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "6910b02a-c672-4436-972d-dbe594cf5493",
+			"name": "http://localhost:5000/api/values/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/values/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"values",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

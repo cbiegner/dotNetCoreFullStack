@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{76503F83-7223-46EB-A763-8340DE261DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{3C50843B-A62C-40DD-B14C-CAD4D4115FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CFCE1055-BF80-4415-9300-B5B22046F672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{21CC8592-CA1D-4EB6-B7A9-AFF48573CF8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{0911DB39-96C7-48C3-99A8-690630C8BBDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{44B96359-4935-4DB4-AF71-730B73293B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92284ABD-78AD-4445-950F-5731107C3AD5}"
+	ProjectSection(SolutionItems) = preProject
+		DotNetDev.Postman.postman_collection.json = DotNetDev.Postman.postman_collection.json
+		Full Stack .NET Core.pptx = Full Stack .NET Core.pptx
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDev.Model.PCache", "DotNetDev.Model.PCache\DotNetDev.Model.PCache.csproj", "{32BFCE1B-B9E7-47B1-A736-55C207437E24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDev.Client.PCache", "DotNetDev.Client.PCache\DotNetDev.Client.PCache.csproj", "{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDev.Service.PCache", "DotNetDev.Service.PCache\DotNetDev.Service.PCache.csproj", "{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDev.Client.PCache.Tests", "DotNetDev.Client.PCache.Tests\DotNetDev.Client.PCache.Tests.csproj", "{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetDev.PCache.WebApp", "DotNetDev.PCache.WebApp\DotNetDev.PCache.WebApp.csproj", "{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BFCE1B-B9E7-47B1-A736-55C207437E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BFCE1B-B9E7-47B1-A736-55C207437E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BFCE1B-B9E7-47B1-A736-55C207437E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BFCE1B-B9E7-47B1-A736-55C207437E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32BFCE1B-B9E7-47B1-A736-55C207437E24} = {3C50843B-A62C-40DD-B14C-CAD4D4115FEF}
+		{DD97692F-AFAA-40E6-9C39-0A11BEEDBAC5} = {0911DB39-96C7-48C3-99A8-690630C8BBDF}
+		{A13E8124-D7AA-4C3F-8E14-FCBC7203EBCB} = {76503F83-7223-46EB-A763-8340DE261DB8}
+		{A6B17FE2-C934-4CD3-AEE9-A12BD157A59B} = {21CC8592-CA1D-4EB6-B7A9-AFF48573CF8E}
+		{E0E69F22-99A7-4A11-99B1-D9BCA82EB1E3} = {CFCE1055-BF80-4415-9300-B5B22046F672}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F98043-78E0-47FD-B409-0AC2A73BEF18}
+	EndGlobalSection
+EndGlobal
